@@ -131,7 +131,7 @@ public class Operator extends javax.swing.JFrame {
         Operate ops = new Operate(a,b);
         double result = ops.calc_multiply();
         
-        sum = String.format("%.2f", result);
+        sum = String.format("%.1f", result);
         
         Total.setText("The equal is: " + sum);
     }//GEN-LAST:event_Multiply1ActionPerformed
@@ -150,7 +150,7 @@ public class Operator extends javax.swing.JFrame {
         Operate ops = new Operate(a,b);
         double result = ops.calc_add();
         
-        sum = String.format("%.2f", result);
+        sum = String.format("%.1f", result);
         
         Total.setText("The equal is: " + sum);
     }//GEN-LAST:event_PlusActionPerformed
@@ -165,7 +165,7 @@ public class Operator extends javax.swing.JFrame {
         Operate ops = new Operate(a,b);
         double result = ops.calc_minus();
         
-        sum = String.format("%.2f", result);
+        sum = String.format("%.1f", result);
         
         Total.setText("The equal is: " + sum);
     }//GEN-LAST:event_MinusActionPerformed
@@ -180,7 +180,7 @@ public class Operator extends javax.swing.JFrame {
         Operate ops = new Operate(a,b);
         double result = ops.calc_divide();
         
-        sum = String.format("%.2f", result);
+        sum = String.format("%.1f", result);
         
         Total.setText("The equal is: " + sum);
     }//GEN-LAST:event_DivideActionPerformed
